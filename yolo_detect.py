@@ -216,7 +216,7 @@ while True:
     elif source_type == 'video' or source_type == 'usb' or source_type == 'picamera':
         key = cv2.waitKey(5)
     
-    if key == ord('q') or key == ord('Q'): # Press 'q' to quit
+    if key == ord('x') or key == ord('X'): # Press 'x' to quit
         break
     elif key == ord('s') or key == ord('S'): # Press 's' to pause inference
         cv2.waitKey()
